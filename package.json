@@ -1,0 +1,29 @@
+{
+  "name": "flappy-submarine",
+  "version": "1.0.0",
+  "description": "A very simple game that acts as a testing ground for three.js capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qwertyamc/Flappy-submarine.git"
+  },
+  "keywords": [
+    "three.js",
+    "test",
+    "WebGL",
+    "image"
+  ],
+  "author": "Arnau Metaute Carrillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qwertyamc/Flappy-submarine/issues"
+  },
+  "homepage": "https://github.com/Qwertyamc/Flappy-submarine#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

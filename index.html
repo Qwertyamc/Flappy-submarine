@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="js/three.min.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@0.141.0/build/three.module.js"
+          }
+        }
+      </script>
+    <script src="js/OrbitControls.js"></script>
+</head>
+<body style="margin: 0; padding:0">
+    <header>
+        <h1>
+            Flappy Submarine
+        </h1>
+        <button id="jump"></button>
+        <button id="play">
+            PLAY GAME
+        </button>
+
+        <nav id="modes">
+            <p>
+                Select your visualisation mode:
+            </p>
+            <button id="normal" class="mode-button">
+                NORMAL
+            </button>
+            <button id="ascii" class="mode-button">
+                ASCII
+            </button>
+            <button id="outline" class="mode-button">
+                OUTLINE
+            </button>
+            <button id="pixellated" class="mode-button">
+                PIXELLATED
+            </button>
+            <button id="glitch" class="mode-button">
+                GLITCH
+            </button>
+        </nav>
+
+        <p id="pause" class="hidden">
+            PAUSED GAME
+        </p>
+        <p id="over" class="hidden">
+            GAME OVER
+        </p>
+
+        <div id="point-wrapper" class="hidden">
+            <p>
+                YOU HAVE
+            </p>
+            <p id="points">
+                0
+            </p>
+            <p>
+                POINTS
+            </p>
+        </div>
+    </header>
+    <main>
+
+    </main>
+<script type="module" src="js/scene.js"></script>
+</body>
+</html>
