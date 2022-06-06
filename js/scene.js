@@ -3,7 +3,6 @@ const ASCII = 1;
 const OUTLINE = 2;
 const PIXEL = 3;
 const GLITCH = 4;
-const GOD = 5;
 
 import { createBox, createPlane, createLight, createSphere, createMesh } from './objects.js'
 import { AsciiEffect } from './effects/AsciiEffect.js';
@@ -266,6 +265,7 @@ function reset(){
     game_begin = false;
     game_paused = false;
     init_bomb = false;
+    points = 0;
     document.getElementsByTagName('main')[0].innerHTML = '';
     document.getElementById('play').classList = [];
     document.getElementById('over').classList.add('hidden');
