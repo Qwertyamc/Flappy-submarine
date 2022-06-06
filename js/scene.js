@@ -226,10 +226,12 @@ document.getElementById('play').addEventListener('click', (e)=>{
     let el = document.getElementById('play');
     let ele = document.getElementById('point-wrapper');
     let elem = document.getElementsByTagName('h1')[0];
+    let eleme = document.getElementById('instructions');
     if(!game_begin){
         el.classList.add("hidden");
         ele.classList = [];
         elem.classList.add("hidden");
+        eleme.classList.add('hidden');
         velocity = 0;
         setTimeout(()=>{game_begin = true;}, 100)
     }
@@ -272,6 +274,7 @@ function reset(){
     document.getElementById('pause').classList.add('hidden');
     document.getElementById('point-wrapper').classList.add('hidden');
     document.getElementsByTagName('h1')[0].classList = [];
+    document.getElementById('instructions').classList = [];
     init();
 }
 

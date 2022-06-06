@@ -18,6 +18,20 @@
     color: white;
 }
 
+#instructions{
+    position:absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    left: 43vw;
+    top: 85vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
 h1{
     position: absolute;
     margin: 0px;
